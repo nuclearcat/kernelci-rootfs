@@ -1,0 +1,77 @@
+# Build outputs
+output/
+*.tar.xz
+*.cpio.gz
+*.ext4
+*.ext4.xz
+*.img
+*.iso
+*.squashfs
+*.rootfs
+*.rootfs.*
+initrd.cpio.gz
+
+# Debos temporary files
+.debos-*
+debos-*
+
+# Buildroot (if cloned locally)
+buildroot/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# IDE and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+Thumbs.db
+.directory
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Lock files (but keep package lock files)
+.~lock.*
